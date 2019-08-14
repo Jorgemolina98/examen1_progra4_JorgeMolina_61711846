@@ -9,5 +9,20 @@ app.get('/', (req, res) => {
 });
 
 // Deberá hacer aquí el método get para producto (Valor 5 puntos)
+app.get('/producto', (req, res) => {
+   respuesta  
+    })
+
+
+
 
 // Deberá hacer aquí el método post para producto (Valor 5 puntos)
+app.post('/producto', (req, res) => {
+    let body = req.body;
+
+let producto = new producto ({
+    nombre: body.nombre,
+    precio: body.precio,
+    creando_en: body.creando_en
+   })
+});
